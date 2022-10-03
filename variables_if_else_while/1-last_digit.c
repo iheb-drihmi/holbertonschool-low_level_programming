@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - Print if the last digit of the number is stored in the variable n
  *
@@ -9,17 +8,23 @@
  */
 int main(void)
 {
-	int n;
+	int n,last_d;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	if ( n > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n);
-	else if ( n == 0)
-		printf("Last digit of %d is %d and is zero\n", n);
+	last_d= (n % 10);
+	if ( last_d  >  5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, last_d);
+	}
+	else if ( last_d == 0)
+	{
+		printf("Last digit of %d is %d and is zero\n", n, last_d);
+	}
 	else
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_d);
+	}
 
 	return (0);
 }
