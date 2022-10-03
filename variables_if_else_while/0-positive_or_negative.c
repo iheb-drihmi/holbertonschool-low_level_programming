@@ -1,4 +1,4 @@
-#include <studlib.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main -Print if n is positive or negative 
