@@ -1,23 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * print_alphabet_x10 - func
+ * main - alphabet in lowercase, followed by a new line.
  *
- * Return - 0
+ * Always return(0)
  */
-void print_alphabet_x10(void)
+
+int main(void)
 {
-int b = 0;
-while (b < 10)
-{
-char a = 'a';
-while (a <= 'z')
-{
-_putchar(a);
-a++;
-}
-_putchar('\n');
-b++;
-}
+	char ch = 'a';
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+
+	return (0);
 }
 
