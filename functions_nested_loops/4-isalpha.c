@@ -1,4 +1,4 @@
-#include "main.h"
+#include "ctype.h"
 /**
 *_isalpha - controls if a character is alphabetical
 *@c: character to be verified
