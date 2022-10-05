@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* Print_sign  - Print the sign of anumber 
+* Print_sign  - Print the sign of anumber
 *@n: The sign of a number .
 *
 *Return :1 if the number is greater than zero
-*	:0 if the number is zero 
+*	:0 if the number is zero
 *	:-1 if the number is less than zero
 */
 
