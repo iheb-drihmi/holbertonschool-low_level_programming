@@ -5,5 +5,4 @@
 #include <stdio.h>
 
 void print_school(void);
-
 #endif
