@@ -3,7 +3,7 @@
  * print_triangle - print triangle
  * @size: size
  *
- * Description: size of the triangle 
+ * Description: size of the triangle
  * Return: Always (0)
  */
 void print_triangle(int size)
