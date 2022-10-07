@@ -3,7 +3,7 @@
 /**
  * main - prints numbers
  *
- * Description: numbers 1 to 100 
+ * Description: numbers 1 to 100
  * Return: Always(0)
  *
  */
