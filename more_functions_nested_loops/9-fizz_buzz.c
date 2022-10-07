@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - numbers  3 or 5
+ * main - prints numbers
  *
  * Description: numbers 1 to 100 
  * Return: Always(0)
