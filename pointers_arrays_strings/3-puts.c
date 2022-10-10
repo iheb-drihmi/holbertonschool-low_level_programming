@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts -print a stirng 
+ * _puts -print a stirng
  *@str: print
  */
 void _puts(char *str)
