@@ -3,7 +3,6 @@
  * _puts -print a  stirng in reverse
  *@s: print
  * Description: print_rev
- * Return: always
  */
 
 void print_rev(char *s)
