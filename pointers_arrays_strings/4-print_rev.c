@@ -2,6 +2,7 @@
 /**
  * _puts -print a  stirng in reverse
  *@s: print
+ *description -print
  */
 
 void print_rev(char *s)
