@@ -9,8 +9,8 @@ int ch = 0;
 
 while (s[ch])
 ch++;
-while(ch--)
+while (ch--)
 _putchar(s[ch]);
-		
+
 _putchar('\n');
 }
