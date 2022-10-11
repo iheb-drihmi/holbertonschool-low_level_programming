@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts -print a  stirng in reverse
+ *print_rev -print a  stirng in reverse
  *@s: print
  * Description: print_rev
  */
