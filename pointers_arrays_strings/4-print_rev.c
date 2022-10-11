@@ -2,8 +2,7 @@
 /**
  * _puts -print a  stirng in reverse
  *@s: print
-
- * Description: print a string
+ * Description: print_rev
  * Return: always
  */
 
