@@ -3,6 +3,7 @@
  * _puts -print a  stirng in reverse
  *@s: print
  */
+
 void print_rev(char *s)
 {
 int ch = 0;
