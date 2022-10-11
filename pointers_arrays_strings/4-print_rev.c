@@ -2,7 +2,9 @@
 /**
  * _puts -print a  stirng in reverse
  *@s: print
- *description -print
+
+ * Description: print a string
+ * Return: always
  */
 
 void print_rev(char *s)
