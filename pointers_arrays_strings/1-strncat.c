@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strcat - a function that conctenates two strings
+ *_strncat - a function that conctenates two strings
  *
  *@dest:destination
  *@src:source
@@ -8,7 +8,7 @@
  *Return:return
  *
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src)
 {
 	int a, b;
 
