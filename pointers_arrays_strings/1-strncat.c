@@ -1,8 +1,7 @@
-
 #include "main.h"
 /**
  *_strncat - concatenates two strings
- *@dest:  pointer 
+ *@dest:  pointer
  *@src:  pointer
  *@n: value
  *Return: return
