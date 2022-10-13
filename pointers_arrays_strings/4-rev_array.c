@@ -2,7 +2,7 @@
 /**
  * reverse_array - a function that reverse array of integers
  * @a: array
- * @n: number 
+ * @n: number
  * Return: return
  */
 void reverse_array(int *a, int n)
