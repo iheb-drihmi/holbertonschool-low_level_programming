@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -16,7 +15,7 @@ char *string_toupper(char *n)
 	{
 		if (n[ch] >= 'a' && n[ch] <= 'z')
 			n[ch] = n[ch] - 32;
-		i++;
+		ch++;
 	}
 	return (n);
 
