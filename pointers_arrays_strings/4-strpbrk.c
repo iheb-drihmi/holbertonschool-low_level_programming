@@ -2,8 +2,8 @@
 /**
  * _strpbrk - a function that searches a string for any of a set of bytes
  *
- * @s: Character 
- * @accept: Character 
+ * @s: Character
+ * @accept: Character
  * Return: Character
  */
 
