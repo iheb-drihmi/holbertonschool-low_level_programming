@@ -6,7 +6,7 @@
  * Return: return
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 	int ch;
 
