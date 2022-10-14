@@ -5,8 +5,7 @@
  * @c: a character
  * Return: return
  */
-
-char *_strchr(char *s, char c)
+char *_strcpy(char *dest, char *src)
 {
 	int a;
 
