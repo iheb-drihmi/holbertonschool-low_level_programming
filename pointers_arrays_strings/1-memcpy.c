@@ -3,7 +3,7 @@
  *_memcpy - a function that copies memory area
  * @dest: destination
  * @src: memory area
- * @n:number 
+ * @n:number
  * Return: return
  */
 
