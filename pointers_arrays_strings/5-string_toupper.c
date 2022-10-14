@@ -17,6 +17,6 @@ char *string_toupper(char *str)
 		ch++;
 	}
 	return (ch);	
-
+}
 
 
