@@ -16,7 +16,7 @@ int sqrt_check(int a, int b)
 	return (sqrt_check(a + 1, b));
 }
 /**
- * sqrt_check - Checks
+ * sqrt_recursion - recursion
  *
  * @n: number
  *
