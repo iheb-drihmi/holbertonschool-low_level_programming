@@ -1,24 +1,24 @@
 #include "main.h"
 /**
- *_sqrt_recursion - a function that returns the natural sqaure
+ * sqrt_check - Checks
+ * @a: sqrt
  *
- *@n: int 
- *@i: value 
- *Return:return
+ * @b: Number to find sqrt of
+ *
+ * Return: return
  */
-int _sqrt_recursion(int n, int b)
+int sqrt_check(int a, int b)
 {
-	if (n < 0)
-	{
+	if (a * a == b)
+		return (a);
+	if (a * a > b)
 		return (-1);
-	}
-	if ((b * b) > n)
-	{
-		return (-1);
-	}
-	if ((b * b) == n)
-	{
-		return (b);
-	}
-	return (_sqrt(n, b + 1));
+	return (sqrt_check(a + 1, b));
+}
+
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+		return (0);
+	return (sqrt_check(1, n));
 }
