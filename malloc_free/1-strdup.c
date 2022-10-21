@@ -25,8 +25,8 @@ char *_strdup(char *str)
 	if (alloc == NULL)
 		return ('\0');
 
-	for (a = 0; a < length_of_string; i++)
-		alloc[a] = *(str + i);
+	for (a = 0; a < length_of_string; a++)
+		alloc[a] = *(str + a);
 
 	alloc[a] = '\0';
 
