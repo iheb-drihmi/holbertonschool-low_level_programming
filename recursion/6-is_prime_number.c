@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number(int n) - a function that returns 1 if the input integer 
+ * is_prime_number - a function that returns 1 if the input integer 
  * @n: number
  * Return: return
  */
