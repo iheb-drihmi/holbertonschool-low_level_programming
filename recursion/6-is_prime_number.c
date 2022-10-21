@@ -5,13 +5,13 @@
  * @n: number
  * Return: return
  */
-int is_prime_number(int n)
+ int is_prime_number(int n)
 {
-	int begin = n / 2;
+	int start = n / 2;
 
 	if (n <= 1)
 		return (0);
-	return (is_prime(n, begin));
+	return (is_prime(n, start));
 }
 
 /**
@@ -20,11 +20,11 @@ int is_prime_number(int n)
  * @beginning: number to begin
  * Return: return
  */
-int is_prime(int n, int begin)
+int is_prime(int n, int start)
 {
-	if (begin <= 1)
+	if (start <= 1)
 		return (1);
-	else if (n % begin == 0)
+	else if (n % start == 0)
 		return (0);
-	return (is_prime(n, begin - 1));
+	return (is_prime(n, start - 1));
 }
