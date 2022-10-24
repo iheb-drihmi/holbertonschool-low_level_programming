@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * is_prime_number - a function that returns 1 if the input integer 
  * @n: number
