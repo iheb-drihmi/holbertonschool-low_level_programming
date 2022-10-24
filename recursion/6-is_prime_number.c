@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prime_a -  a function that returns 1 if the input integer
+ * prime_a -  Main Entry
  * @a: input
  * @b: input
  * Return: 0
