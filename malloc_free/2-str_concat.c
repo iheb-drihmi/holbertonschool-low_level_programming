@@ -1,3 +1,10 @@
+#include "main.h"
+/**
+* str_concat - a function that concatenates two strings
+*@s1:The first string
+*@s2:The second string
+*Return: return
+*/
 char *str_concat(char *s1, char *s2)
 {
 	char *str_concat;
