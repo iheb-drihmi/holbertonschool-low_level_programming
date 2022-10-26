@@ -6,6 +6,7 @@
 *@b:unsigned int
 *Return:return
 */
+
 void *malloc_checked(unsigned int b)
 {
 	char *a;
