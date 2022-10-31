@@ -13,4 +13,4 @@
      float age;
      char *owner;
  };
-#endif DOG_H
+#endif
