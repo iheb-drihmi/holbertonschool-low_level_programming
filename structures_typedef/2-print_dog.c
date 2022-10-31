@@ -4,9 +4,6 @@
 /**
  * print_dog - initialiser dog
  * @d: The dog
- * @Name: The name
- * @Age: The age
- * @Owner: The owner
  */
 void print_dog(struct dog *d)
 {
