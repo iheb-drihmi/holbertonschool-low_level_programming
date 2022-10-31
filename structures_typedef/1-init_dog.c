@@ -4,7 +4,7 @@
 
 /**
  * init_dog - initialiser dog
- * @a: The animal
+ * @a: The dog
  * @name: The name
  * @age: The age
  * @owner: The owner
