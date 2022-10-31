@@ -4,11 +4,11 @@
 /**
  * init_dog - initialiser dog
  * @d: The dog
- * @name: The name
- * @age: The age
- * @owner: The owner
+ * @Name: The name
+ * @Age: The age
+ * @Owner: The owner
  */
- void print_dog(struct dog *d)
+void print_dog(struct dog *d)
 {
 	if (d == NULL)
 		return;
