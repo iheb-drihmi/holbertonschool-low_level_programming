@@ -15,7 +15,7 @@
     if (d->name == NULL)
     printf("Name: (nil)/n");
     else
-    printf("Age: %s/n", d->name);
+    printf("Name: %s/n", d->name);
     if (d->age < 0)
 		printf("Age: (nil)\n");
 	else
