@@ -4,7 +4,7 @@
 
 /**
 *free_dog - Free dog
-*@d: The dog 
+*@d: The dog
 */
 void free_dog(dog_t *d)
 {
