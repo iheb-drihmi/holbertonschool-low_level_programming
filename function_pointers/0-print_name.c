@@ -2,10 +2,11 @@
 #include<stdlib.h>
 #include<stdio.h>
 /**
-*print_name - a function that prints a name
+*print name - a function that print name
 *@name:The name
-*@f:A function
+*@f:Afunction
 */
+
 
 void print_name(char *name, void (*f)(char *))
 {
