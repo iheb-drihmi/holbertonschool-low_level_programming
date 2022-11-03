@@ -4,8 +4,8 @@
 
 /**
  * int_index - a function that searches for an integer
- * @array:The array 
- * @size:The size 
+ * @array:The array
+ * @size:The size
  * @cmp:The cmp
  * Return:return
  */
