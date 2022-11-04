@@ -8,7 +8,6 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	
 	va_list countptr;
 	unsigned int x;
 	int sum = 0;
