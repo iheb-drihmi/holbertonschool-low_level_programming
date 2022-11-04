@@ -31,5 +31,5 @@ printf("%s", separator);
 }
 
 printf("\n");
-va_end(li);
+va_end(countptr);
 }
