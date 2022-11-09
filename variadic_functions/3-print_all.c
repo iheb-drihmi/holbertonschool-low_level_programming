@@ -1,35 +1,59 @@
 #include "variadic_functions.h"
 #include<stdlib.h>
 #include <stdio.h>
-void print_all(const char * const format, ...)
+#include<stdrag.h>
+/**
+ * print_char - Prints a char.
+ * @arg: argument
+ */
+void print_char(va_list arg)
 {
-	va_list countptr;
-	int x, arg_len;
-	char *separator = "";
+	char character;
 
-	prints_t fmt_list[] = {
-		{"c", print_char},
-		{"i", print_int},
-		{"f", print_float},
-		{"s", print_string}
-	};
-	va_start(countptr, format);
-	x = 0;
-	while (format && (*(format + x)))
-	{
-		arg_len = 0;
-		while (arg_len < 4 && (*(format + x) != *(fmt_list[arg_len].notation)))
-		{
-			arg_len++;
-		}
-		if (arg_len < 4)
-		{
-			printf("%s", separator);
-			fmt_list[arg_len].print_dType(countptr);
-			separator = ", ";
-		}
-		x++;
-	}
-	printf("\n");
-	va_end(countptr);
+	letter = va_arg(arg, int);
+	printf("%c", character);
 }
+
+/**
+ * print_int - Prints an int.
+ * @arg: argument
+ */
+void print_int(va_list arg)
+{
+	int number;
+
+	number = va_arg(arg, int);
+	printf("%d", number);
+}
+
+/**
+ * print_float - Prints a float.
+ * @arg: argument
+ */
+void print_float(va_list arg)
+{
+	float number;
+
+	number = va_arg(arg, double);
+	printf("%f", number);
+}
+
+/**
+ * print_string - Prints a string.
+ * @arg: argument
+ */
+void print_string(va_list arg)
+{
+	char *str;
+
+	str = va_arg(arg, char *);
+
+	if (str == NULL)
+	{
+		printf("(nil)");
+		return;
+	}
+
+	printf("%s", str);
+}
+void print_all(const char * const format, ...)
