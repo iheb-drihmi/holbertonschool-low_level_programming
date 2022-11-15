@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 /**
-*print_list - print list
+*print_list - print all elements
 *@h: the list
 *Return : return
 */
