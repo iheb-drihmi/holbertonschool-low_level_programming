@@ -14,7 +14,7 @@ while (h)
 
 {
 nodes++;
- h = h->next;
+h = h->next;
 }
 return (nodes);
 }
