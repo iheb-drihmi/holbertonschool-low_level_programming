@@ -21,6 +21,7 @@ printf("[0] (nil)\n");
 
 		nodes++;
 		h = h->next;
+
 }
 
 	return (nodes);
