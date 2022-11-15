@@ -4,7 +4,7 @@
 /**
 *print_list - print all elements
 *@h: the list
-*Return : return
+*Return : Return nodes
 */
 
 
