@@ -20,9 +20,8 @@ if (new == NULL)
 return (NULL);
 
 new->str = strdup(str);
-
 for (newchar = 0; str[newchar]; newchar++)
-    ;
+;
 
 new->len = newchar;
 new->next = NULL;
