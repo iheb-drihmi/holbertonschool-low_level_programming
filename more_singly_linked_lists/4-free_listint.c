@@ -1,5 +1,6 @@
 #include "lists.h"
 #include<stdio.h>
+#include<stdlib.h>
 /**
  * free_listint - a function that frees a linked list
  * @head: pointer
