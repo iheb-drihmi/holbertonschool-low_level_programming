@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * *add_nodeint - a function that adds a new node at beginning of a linked list.
+ * *add_nodeint - a function that adds a new node at beginning of a linked list
  *
  * @head: pointer
  * @n: the added
