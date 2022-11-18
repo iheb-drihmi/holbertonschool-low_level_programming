@@ -13,7 +13,7 @@ void print_binary(unsigned long int n)
 	{
 		b = n >> i;
 
-		if (current & 1)
+		if (b & 1)
 		{
 			_putchar('1');
 			count++;
