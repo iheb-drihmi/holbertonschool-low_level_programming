@@ -8,8 +8,8 @@
 * @text_content: a pointer
 * Return: return
 */
- int create_file(const char *filename, char *text_content)
- {
+int create_file(const char *filename, char *text_content)
+{
 int o, w, length = 0;
 if (filename == NULL)
 return (-1);
@@ -23,5 +23,6 @@ w = write(o, text_content, length);
 if (o == -1 || w == -1)
 return (-1);
 close(o);
-return (1);    
+return (1);
 }
+
