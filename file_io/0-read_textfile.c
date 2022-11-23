@@ -2,10 +2,12 @@
 #include<stdlib.h>
 /**
 *read_textfile - a function that reads a text file and prints
-@filename: a pointer
-@letters: the number of letter
-Return:return
+*@filename: a pointer
+*@letters: the number of letter
+*Return:return
 */
+
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 ssize_t o, r, w;
