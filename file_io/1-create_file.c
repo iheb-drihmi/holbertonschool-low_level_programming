@@ -4,8 +4,8 @@
 /**
 * create_file - a function that create a file
 * @filename: a pointer
-*@text_content: a pointer
-Return: return
+* @text_content: a pointer
+* Return: return
 */
  int create_file(const char *filename, char *text_content)
  {
