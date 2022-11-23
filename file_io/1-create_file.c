@@ -1,4 +1,6 @@
 #include "main.h"
+#include<stdio.h>
+#include<stdlib.h>
 /**
 * create_file - a function that create a file
 * @filename: a pointer
@@ -23,4 +25,3 @@ Return: return
     close(o);
     return (1);    
  }
- 
