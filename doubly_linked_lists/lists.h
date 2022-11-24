@@ -9,7 +9,7 @@
 *@next: suivant
 *Return: return
 */
-typdef struct dlistint_s
+typedef struct dlistint_s
 {
     int n;
     struct dlistint_s *prev;
