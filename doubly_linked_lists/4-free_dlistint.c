@@ -3,7 +3,7 @@
  * free_listint - a function that frees a linked list
  * @head: pointer
  */
-void free_listint(listint_t *head)
+void free_listint(dlistint_t *head)
 {
     listint_t *tmp;
 
@@ -14,3 +14,4 @@ void free_listint(listint_t *head)
         head = tmp;
     }
 }
+
