@@ -11,12 +11,12 @@ char *leet(char *str)
 	char a[] = "aAeEoOtTlL";
 	char b[] = "4433007711";
 
-	for (c = 0; *(n + c); c++)
+	for (c = 0; *(str + c); c++)
 	{
 		for (d = 0; d <= 9; d++)
 		{
-			if (a[j] == n[c])
-				n[c] = b[d];
+			if (a[j] == str[c])
+				str[c] = b[d];
 		}
 	}
 	return (str);
