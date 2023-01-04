@@ -15,7 +15,7 @@
 
 	for (j = 0; j < size; j++)
 	{
-		printf("Value checked array[%u] = [%d]\n", j, array[j]);
+		printf("Value checked array[%ld] = [%d]\n", j, array[j]);
 		if (value == array[j])
 			return (j);
 	}
